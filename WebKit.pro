@@ -7,6 +7,7 @@
 
 TEMPLATE = subdirs
 CONFIG += ordered
+CONFIG -= create_cmake
 
 !equals(QT_MAJOR_VERSION, 5): error("Building WebKit with Qt versions older than 5.0 is not supported.")
 
